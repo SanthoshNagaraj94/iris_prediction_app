@@ -1,0 +1,29 @@
+form {
+
+
+
+    background-image:url(iris_images\iris_setosa.jpg) no-repeat;
+    background-position:center;
+      
+    
+    }
+              
+    img {
+        
+    width: 400px;
+    
+    
+    }
+
+   header
+    {   position:relative;
+        border-radius: 50px;
+        color: rgb(80, 20, 220);
+        box-shadow: 20px 20px 20px 20px rgb(245, 244, 243);
+    }
+
+   
+    body
+    {
+        background: radial-gradient(#e66465, #9198e5);
+    }

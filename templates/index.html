@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IRIS WEB APPLICATION</title>
+    <link rel="stylesheet" type= "text/css" href="{{url_for('static',filename='styles.css')}}">
+</head>
+
+<body><header  ><h1 >WELCOME TO IRIS PREDICTION APP</h1>
+  </header>
+ 
+  
+<form action="/result"  method="POST" style="text-align:center">
+   <br>
+  <label for="p_length">PETAL LENGTH</label>
+
+  <input type="number" step="0.1" min="0" max="8" name="p_length" required name="p_length"><br>
+  <br>
+  <br>
+
+  <label for="p_width">PETAL WIDTH</label>
+
+  <input type="number" step="0.1" min="0" max="5" name="p_width" required name="p_width"><br>
+  <br>
+  <br>
+  <label for="s_length">SEPAL LENGTH</label>
+
+  <input type="number" step="0.1" min="0" max="8" name="s_length" required name="s_length"><br>
+
+  <br>
+  <br>
+  <label for="s_width">SEPAL WIDTH</label>
+  <input type="number" step="0.1" min="0" max="5" name="s_width" required name="s_width"><br>
+  <br>
+  <br>
+
+  <input type="submit"  id="submit" name="submit" style="height:50px; width:200px" >
+  
+  </form>
+
+</body>
+</html>
